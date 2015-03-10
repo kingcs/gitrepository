@@ -10,7 +10,6 @@ public class Test {
 //
 //		System.out.println(o);
 		// test map
-		System.out.println("-------------------------------");
 		Map<String, Object> map = new HashMap<String, Object>();
 		map.put("id", 12345);
 		map.put("name", "zhangsan");
@@ -22,7 +21,6 @@ public class Test {
 		for(Map.Entry<String, Object> m : map.entrySet()) {
 			System.out.println(m.getKey() + "\t" + m.getValue());
 		}
-		System.out.println("-------------------------------");
 	}
 
 }
