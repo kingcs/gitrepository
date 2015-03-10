@@ -9,7 +9,8 @@ public class Test {
 //		Object[] o = new Object[2147483647];
 //
 //		System.out.println(o);
-		
+		// test map
+		System.out.println("-------------------------------");
 		Map<String, Object> map = new HashMap<String, Object>();
 		map.put("id", 12345);
 		map.put("name", "zhangsan");
