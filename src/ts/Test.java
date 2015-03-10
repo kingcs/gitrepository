@@ -22,7 +22,7 @@ public class Test {
 		for(Map.Entry<String, Object> m : map.entrySet()) {
 			System.out.println(m.getKey() + "\t" + m.getValue());
 		}
-		System.out.println("--------------------");
+		System.out.println("-------------------------------");
 	}
 
 }
